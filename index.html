@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
+    <div class="d-flex">
+      <div class="left">
+        <ul>
+          <li>
+            <a href="#"> <img src="img/logo2.png" /></a>
+          </li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#project">projectes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div class="word">
+        <h1>hi, iam mady a</h1>
+        <p><span>ui/ux designer</span></p>
+        <p>contact with me on</p>
+        <ul>
+          <li>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <img src="img/pr1.jpg" />
+      </div>
+    </main>
+
+    <div class="t-center">
+      <h3>our services</h3>
+    </div>
+    <section class="all-card" id="services">
+      <div class="card-containt">
+        <div class="card" id="card1">
+          <div class="img-card">
+            <img src="img/1.jpg" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card2">
+          <div class="img-card">
+            <img src="img/2.png" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card3">
+          <div class="img-card">
+            <img src="img/3.jpg" />
+          </div>
+          <div class="card-p">
+            <p>desktop app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+      </div>
+      <div class="card-containt active">
+        <div class="card" id="card1">
+          <div class="img-card">
+            <img src="img/images.jpeg" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card2">
+          <div class="img-card">
+            <img src="img/logo2.png" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card3">
+          <div class="img-card">
+            <img src="img/3.jpg" />
+          </div>
+          <div class="card-p">
+            <p>desktop app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+      </div>
+      <div class="card-containt">
+        <div class="card" id="card1">
+          <div class="img-card">
+            <img src="img/pr1.jpg" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card2">
+          <div class="img-card">
+            <img src="img/pr1.jpg" />
+          </div>
+          <div class="card-p">
+            <p>mobile app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+        <div class="card" id="card3">
+          <div class="img-card">
+            <img src="img/3.jpg" />
+          </div>
+          <div class="card-p">
+            <p>desktop app</p>
+            <p class="c-red">100$</p>
+          </div>
+          <span class="span-hover">see more </span>
+        </div>
+      </div>
+      <div class="p-abs">
+        <div class="arrow" id="next" onclick="next()"><</div>
+        <div class="arrow" id="prev" onclick="prev()">></div>
+      </div>
+    </section>
+    <!-- skills -->
+    <!-- our services -->
+    <section class="slider" id="about">
+      <div class="bg-img">
+        <h3>our skills</h3>
+        <img src="img/i.avif" />
+      </div>
+      <div class="col-1">
+        <div class="tab-title">
+          <p class="tab-list active" onclick="openlist('skills')">skills</p>
+          <p class="tab-list" onclick="openlist('subject')">subject</p>
+          <p class="tab-list" onclick="openlist('education')">education</p>
+        </div>
+        <div class="tab-contant tab-active" id="skills">
+          <ul>
+            <li><span>graphic designer</span><br />2012-2013</li>
+            <li><span>digital art</span><br />2012-2013</li>
+            <li><span>front-end designer</span><br />2012-2013</li>
+          </ul>
+        </div>
+        <div class="tab-contant" id="subject">
+          <ul>
+            <li class="d-block">
+              <div class="d-flex">
+                <span>html/css</span>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex">
+                <span>javascript</span>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex">
+                <span>php-laravel</span>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex">
+                <span>photoshop/illustrator/indesign</span>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contant" id="education">
+          <ul>
+            <li><span>html/css</span><br />2012-2013</li>
+            <li><span>javascripr</span><br />2012-2013</li>
+            <li><span>php-laravel</span><br />2012-2013</li>
+            <li><span>photoshop/illustrator/indesign</span><br />2012-2013</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- slider  -->
+    <section class="slider" id="project">
+      <div class="bg-img">
+        <h3>our projectes</h3>
+        <!-- <img src="img/i.avif" /> -->
+      </div>
+      <div class="bg-slider">
+        <h3>see some projectes</h3>
+        <div class="slider-img">
+          <img src="img/3.jpg" id="sliderimg" />
+        </div>
+      </div>
+    </section>
+    <!-- foooter -->
+    <div class="top" id="top">top</div>
+    <footer>
+      <div>copy right <span class="c-red">malaz </span> design</div>
+    </footer>
+    <script src="main.js" defer></script>
+  </body>
+</html>
